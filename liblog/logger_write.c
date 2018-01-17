@@ -401,6 +401,7 @@ LIBLOG_ABI_PUBLIC int __android_log_buf_write(int bufID, int prio,
         !strncmp(tag, "IMS", 3) || /* Any log tag with "IMS" as the prefix */
         !strcmp(tag, "AT") ||
         !strcmp(tag, "GSM") ||
+        !strcmp(tag, "ccci_fsd") ||
         !strcmp(tag, "STK") ||
         !strcmp(tag, "CDMA") ||
         !strcmp(tag, "PHONE") ||
